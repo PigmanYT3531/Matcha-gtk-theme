@@ -1,3 +1,9 @@
+## Disclaimer
+- This is an unofficial fork of Matcha GTK Theme
+- Donate button is removed because it's irrelevant here
+- If you want to donate to the original repo, well, just go to the original repo
+
+
 <img src="https://github.com/vinceliuice/matcha/blob/imgs/logo.png" alt="Logo" align="right" /> Matcha Gtk Theme
 ======
 
@@ -6,12 +12,6 @@ Matcha is a flat Design theme for GTK 3, GTK 2 and Gnome-Shell which supports GT
 This theme is based on Arc gtk theme of horst3180. Thanks horst3180 sincerely for his great job!
 
 horst3180 - Arc gtk theme: https://github.com/horst3180/Arc-theme
-
-## Donate
-
-If you like my project, you can buy me a coffee:
-
-<span class="paypal"><a href="https://www.paypal.me/vinceliuice" title="Donate to this project using Paypal"><img src="https://www.paypalobjects.com/webstatic/mktg/Logo/pp-logo-100px.png" alt="PayPal donate button" /></a></span>
 
 ## Info
 
@@ -49,7 +49,7 @@ Or open the terminal at current directory.
 
 Run
 
-    ./install.sh
+    ./install.sh -c dark
 
 Usage: ./install.sh [OPTIONS...]
 
@@ -74,34 +74,3 @@ OPTIONS:
 If you installed your theme in system theme folder then run:
 
     sudo flatpak override --filesystem=/usr/share/themes
-
-### Install from flathub
-
-    flatpak remote-add flathub https://flathub.org/repo/flathub.flatpakrepo
-    flatpak install flathub org.gtk.Gtk3theme.Matcha-sea
-
-### Install from repository
-
-Archlinux:
-This package is available in the AUR
-
-    yay -S matcha-gtk-theme
-
-FreeBSD:
-
-    # pkg install matcha-gtk-themes
-
-Solus:
-
-    sudo eopkg it matcha-gtk-theme
-
-## Icon theme for Matcha
-
-- Qogir-manjaro:  https://github.com/vinceliuice/Qogir-icon-theme
-
-## Screenshots
-
-![01](https://github.com/vinceliuice/matcha/blob/imgs/Screenshot-01.png?raw=true)
-![02](https://github.com/vinceliuice/matcha/blob/imgs/Screenshot-02.png?raw=true)
-![03](https://github.com/vinceliuice/matcha/blob/imgs/Screenshot-03.png?raw=true)
-![04](https://github.com/vinceliuice/matcha/blob/imgs/Screenshot-04.png?raw=true)
